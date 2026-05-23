@@ -67,4 +67,4 @@ class chatbook:
         print("\n")
         self.menu()
 
-obj = chatbook()
+ #obj = chatbook()

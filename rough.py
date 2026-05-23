@@ -15,6 +15,26 @@ print(lst2)
 my_str1 = my_str.lower()
 print(my_str1)
 
+#function
+lst = [1,2,3]
+print(len(lst))
+
 from oops_proj import chatbook
 
+#method
 user1 = chatbook()
+#user1.send_msg()
+
+#print(user1.__confidential) This will throw error but
+print(user1._chatbook__confidential) #this will work but it is not recommended to use hidden attributes outside the class
+print(user1.get_name())
+user1.set_name("I love MUJ")
+print(user1.get_name())
+print(user1.id)
+
+chatbook.set_id(100)
+user2 = chatbook()
+print(user2.id)
+
+user3 = chatbook()
+print(user3.id)

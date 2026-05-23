@@ -1,9 +1,35 @@
 class chatbook:
+
+    __user_id = 0
+
     def __init__(self):
+        #static method
+        self.id = chatbook.__user_id
+        chatbook.__user_id += 1
+        #this below one is a hidden attribute
+        self.__confidential = "I hate MUJ"
         self.username = ""
         self.password = ""
         self.logged_in = False
-        self.menu()
+        #self.menu()
+
+    @staticmethod
+    def get_id():
+        return chatbook.__user_id
+    
+    @staticmethod
+    def set_id(val):
+        chatbook.__user_id = val
+        return chatbook.__user_id
+
+    #getter
+    def get_name(self):
+        return self.__confidential 
+    
+    #setter
+    def set_name(self, value):
+        self.__confidential = value
+
 
     def menu(self):
         user_input = input("""Welcome to Chatbook , How would you like to proceed? 

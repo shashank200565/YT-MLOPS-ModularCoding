@@ -9,6 +9,10 @@
         > Debugging
         > easy to collab
 5.End to end project (chatbook class)
+        > Constructors (__init__,__add__,etc)
+        > self - self is basically written in every methods bracket as self is referencing or is the variable of the object being called only
+        > Function vs method
+        > You can create attribute outside class as well
         > Encapsulation
         > Getter and Setter
         > static method

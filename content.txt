@@ -16,3 +16,7 @@
         > Encapsulation
         > Getter and Setter
         > static method
+6.Inheritance
+        > Why its Important - for Code reusability 
+        > method overloading and constructor overloading
+        >Types of Inheritance - Single(normal) , Multilevel , 
